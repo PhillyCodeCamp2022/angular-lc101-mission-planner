@@ -13,6 +13,13 @@ h3 {
 }
 
 /* Add an 'active' class to style the background of the 'Add to Cargo Hold' buttons. */
-
+/* How we make a css selector that will style any HTML element that has class="active" */
+.active {
+    background-color: cyan;
+}
 
 /* Add the 'nearMaxMass' class style here: */
+.nearMaxMass {
+    color: crimson;
+    font-style: italic;
+}
